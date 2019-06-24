@@ -36,3 +36,5 @@ function add_prettify_scripts() {
 		plugins_url( 'prettify', __FILE__ )
 	);
 }
+
+require __DIR__ . '/editor/wp-wpgcp-button.php';
