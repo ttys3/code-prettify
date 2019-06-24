@@ -60,7 +60,7 @@ function wpgpcintegration_addquicktags()
     wp_enqueue_script('jquery');
     wp_enqueue_script(
         'wp_wpgcp_quickcode',
-        plugin_dir_url(__FILE__) . '/editor/wp-wpgcp-quicktag.js',
+        plugin_dir_url(__FILE__) . '/wp-wpgcp-quicktag.js',
         array('quicktags')
     );
 }
